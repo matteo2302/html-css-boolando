@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1280px;
+  height: 100%;
+  border: 2px dashed black;
+  margin: auto;
+}
+
+/*******************header******************************/
+header {
+  height: 80px;
+  width: 100%;
+  background-color: orange;
+
+  position: fixed;
+}
+.logo-top {
+  width: calc(100% / 3);
+  height: 100%;
+  border: 2px dashed black;
+}
