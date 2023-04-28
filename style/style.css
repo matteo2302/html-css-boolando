@@ -97,6 +97,9 @@ img {
   color: white;
   background-color: green;
 }
+.last {
+  left: 0px;
+}
 .price {
   font-size: 15px;
 }
