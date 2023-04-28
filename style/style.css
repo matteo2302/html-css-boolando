@@ -28,7 +28,9 @@ main {
 .space-bet {
   justify-content: space-between;
 }
-
+.flex-end {
+  justify-content: flex-end;
+}
 /*******************header******************************/
 header {
   height: 80px;
@@ -140,7 +142,6 @@ footer p {
 }
 .socials {
   height: 50px;
-
   margin: 0 20px;
 }
 .info {
