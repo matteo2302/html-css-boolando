@@ -34,6 +34,7 @@ header {
   height: 80px;
   width: 100%;
   background-color: orange;
+  z-index: 1;
 
   position: fixed;
 }
@@ -61,6 +62,7 @@ header {
   border: 2px dashed black;
   margin: 0 20px;
   position: relative;
+  padding-bottom: 40px;
 }
 img {
   display: inline;
