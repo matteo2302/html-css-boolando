@@ -33,7 +33,18 @@ header {
 
   position: fixed;
 }
-.logo-top {
+.categories a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+}
+.head-nav {
   width: calc(100% / 3);
   height: 100%;
   border: 2px dashed black;
@@ -45,6 +56,10 @@ header {
   height: 300px;
   border: 2px dashed black;
   margin: 0 20px;
+}
+img {
+  display: inline;
+  max-width: 100%;
 }
 /*****************footer******************************/
 .socials {
