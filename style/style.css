@@ -19,7 +19,7 @@ main {
 .container {
   width: 1280px;
   height: 100%;
-  border: 2px dashed black;
+
   margin: auto;
 }
 .wrap {
@@ -59,7 +59,7 @@ header {
 .cards {
   width: calc(100% / 3 - 60px);
   height: 100%;
-  border: 2px dashed black;
+
   margin: 0 20px;
   position: relative;
   padding-bottom: 40px;
@@ -115,6 +115,15 @@ img {
 }
 .marca {
   font-size: 12px;
+}
+.hidden {
+  position: absolute;
+  max-width: 100%;
+  opacity: 0;
+  left: 0;
+}
+.hidden:hover {
+  opacity: 1;
 }
 /*****************footer******************************/
 .socials {
