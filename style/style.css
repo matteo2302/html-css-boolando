@@ -46,15 +46,15 @@ header {
   color: white;
   font-size: 16px;
 }
-.logo {
-  width: 20px;
-  height: 20px;
-  align-items: center;
+
+.logo-head {
+  width: 110px;
+  height: 30px;
 }
 .head-nav {
   width: calc(100% / 3);
   height: 100%;
-  border: 2px dashed black;
+
   margin: 0 20px;
 }
 /*******************main cards**********************/
