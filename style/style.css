@@ -84,6 +84,9 @@ img {
 .heart:hover {
   color: red;
 }
+.heart.active{
+  color:red;
+}
 .discount {
   position: absolute;
   bottom: 100px;

@@ -10,7 +10,7 @@ if(heart1.style.color==="black"){
 });*/
 
 /* qui proviamo a rendere la funzione funzionante per tutti i bottoni*/
-const Hearts = document.querySelectorAll(".heart");
+/*const Hearts = document.querySelectorAll(".heart");
 
 Hearts.forEach(function(heart){
     heart.addEventListener("click", function(){
@@ -19,5 +19,13 @@ Hearts.forEach(function(heart){
         }else{
             heart.style.color="black";
         }
+    });
+});*/
+/*ora proviamo con una classe che si aggiunge*/
+const Hearts = document.querySelectorAll(".heart");
+
+Hearts.forEach(function(heart){
+    heart.addEventListener("click", function(){
+       heart.classList.toggle("active");
     });
 });
